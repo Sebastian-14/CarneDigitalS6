@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_height">120dp</dimen>
+    <dimen name="logo_width">500dp</dimen>
+    <dimen name="img_persona_width">400dp</dimen>
+    <dimen name="img_persona_height">480dp</dimen>
+    <dimen name="txt_nombre">32sp</dimen>
+</resources>

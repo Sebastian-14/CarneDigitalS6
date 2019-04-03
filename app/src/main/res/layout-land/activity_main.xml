@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/bg_carne">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:padding="36dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_logo1" />
+
+        <ImageView
+            android:id="@+id/img_person1"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/img_logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_person1" />
+
+        <TextView
+            android:id="@+id/text_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_logo"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_person1"
+            android:text="Sebastian Sanchez"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorGreen"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_nombre"
+            android:layout_toRightOf="@id/img_person1"
+            android:text="@string/ventas"
+            android:textAlignment="gravity"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/img_person1" />
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_person1"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="16dp"
+            android:background="#FFF"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_cbarras2" />
+    </RelativeLayout>
+</LinearLayout>
