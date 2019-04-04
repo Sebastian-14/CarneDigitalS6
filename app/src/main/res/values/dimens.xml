@@ -4,5 +4,5 @@
     <dimen name="logo_width">250dp</dimen>
     <dimen name="img_persona_width">200dp</dimen>
     <dimen name="img_persona_height">240dp</dimen>
-    <dimen name="txt_nombre">16sp</dimen>
+    <dimen name="txt_nombre">32sp</dimen>
 </resources>
